@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_edge_margin">@dimen/baseline_grid_1x</dimen>
+    <dimen name="card_gutter">@dimen/baseline_grid_1x</dimen>
+
+    <dimen name="card_content_area_framed_padding_horizontal">@dimen/baseline_grid_2x</dimen>
+    <dimen name="card_content_area_framed_padding_vertical">@dimen/baseline_grid_1x</dimen>
+    <!--If above both are same-->
+    <dimen name="card_content_area_framed_padding">@dimen/baseline_grid_1x</dimen>
+
+    <dimen name="card_title_margin_vertical">@dimen/baseline_grid_1.5x</dimen>
+
+    <dimen name="card_media_area_framed_padding_horizontal">@dimen/baseline_grid_2x</dimen>
+    <dimen name="card_media_area_framed_padding_vertical">@dimen/baseline_grid_2x</dimen>
+    <dimen name="card_media_area_in_title_padding_top">@dimen/card_media_area_framed_padding_vertical</dimen>
+    <dimen name="card_media_area_in_title_padding_end">@dimen/card_media_area_framed_padding_horizontal</dimen>
+
+    <dimen name="card_media_area_framed_size_xsmall">60dp</dimen>
+    <dimen name="card_media_area_framed_size_small">80dp</dimen>
+    <dimen name="card_media_area_framed_size_medium">120dp</dimen>
+    <dimen name="card_media_area_framed_size_large">160dp</dimen>
+    <dimen name="card_media_area_framed_size_xlarge">240dp</dimen>
+    <dimen name="floating_button_width_height">56dp</dimen>
+    <dimen name="brand_image_height">40dp</dimen>
+
+    <dimen name="card_divider_inset_padding_horizontal">@dimen/content_edge_margin_horizontal</dimen>
+    <dimen name="card_area_frame_weight">@dimen/increment_4.5x</dimen>
+    <dimen name="card_area_frame_height">@dimen/baseline_grid_16x</dimen>
+</resources>

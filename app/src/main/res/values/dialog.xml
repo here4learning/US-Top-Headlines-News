@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_elevation">@dimen/elevation_dialog</dimen>
+    <dimen name="dialog_screen_edge_margin_minimum_horizontal">
+        @dimen/baseline_grid_5x
+    </dimen>
+    <dimen name="dialog_screen_edge_margin_minimum_vertical">
+        @dimen/baseline_grid_3x
+    </dimen>
+    <integer name="dialog_width_minimum_increment">5</integer>
+    <dimen name="dialog_width_minimum">@dimen/increment_5x</dimen>
+
+    <dimen name="dialog_content_area_padding_vertical">@dimen/baseline_grid_3x</dimen>
+    <dimen name="dialog_content_area_padding_horizontal">@dimen/baseline_grid_3x</dimen>
+    <dimen name="dialog_content_area_title_content_margin">@dimen/baseline_grid_2.5x</dimen>
+
+    <dimen name="dialog_actions_side_by_side_height">@dimen/baseline_grid_6.5x</dimen>
+    <dimen name="dialog_actions_side_by_side_button_height">@dimen/button_height_minimum</dimen>
+    <!-- Button values are the flat button ones, defined in button.xml -->
+    <dimen name="dialog_actions_side_by_side_padding_bottom">@dimen/baseline_grid_1x</dimen>
+    <dimen name="dialog_actions_side_by_side_padding_top">@dimen/baseline_grid_1x</dimen>
+    <dimen name="dialog_actions_side_by_side_padding_top_with_divider">7dp</dimen>
+    <!-- baseline_grid_1x - divider_height -->
+    <dimen name="dialog_actions_side_by_side_padding_end">@dimen/baseline_grid_1x</dimen>
+
+    <dimen name="dialog_actions_stacked_button_height">@dimen/baseline_grid_6x</dimen>
+    <dimen name="dialog_actions_stacked_padding_bottom">@dimen/baseline_grid_1x</dimen>
+    <dimen name="dialog_actions_stacked_button_padding_end">@dimen/baseline_grid_2x</dimen>
+
+    <dimen name="dialog_fullscreen_title_height_single_line">@dimen/baseline_grid_7x</dimen>
+    <dimen name="dialog_fullscreen_title_height_two_lines">@dimen/baseline_grid_10x</dimen>
+    <dimen name="dialog_fullscreen_title_title_text_size">@dimen/title_text_size</dimen>
+    <dimen name="dialog_fullscreen_title_title_edge_margin">@dimen/baseline_grid_9x</dimen>
+    <dimen name="dialog_fullscreen_title_affirmative_action_text_size">@dimen/button_text_size
+    </dimen>
+    <dimen name="dialog_fullscreen_title_affirmative_action_text_padding_horizontal">
+        @dimen/baseline_grid_2x
+    </dimen>
+    <dimen name="dialog_fullscreen_title_dismissive_action_padding_start">@dimen/baseline_grid_2x
+    </dimen>
+    <dimen name="dialog_bottom_vertical_spacing">@dimen/baseline_grid_16x</dimen>
+    <dimen name="dialog_bottom_vertical_spacing_43x">@dimen/baseline_grid_43x</dimen>
+    <dimen name="dialog_bottom_vertical_spacing_53x">@dimen/baseline_grid_53x</dimen>
+
+</resources>

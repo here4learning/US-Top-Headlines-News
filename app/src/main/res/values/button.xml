@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_height_minimum">@dimen/baseline_grid_4.5x</dimen>
+    <dimen name="button_height_minimum_primary">@dimen/baseline_grid_7x</dimen>
+    <dimen name="button_height_minimum_submit">@dimen/baseline_grid_6x</dimen>
+    <dimen name="button_touch_target_height_minimum">@dimen/baseline_grid_6x</dimen>
+    <dimen name="button_width_minimum">@dimen/baseline_grid_11x</dimen>
+    <dimen name="button_width_maximum">@dimen/baseline_grid_17x</dimen>
+    <dimen name="button_padding_horizontal">@dimen/baseline_grid_1x</dimen>
+    <dimen name="button_gutter_horizontal">@dimen/baseline_grid_1x</dimen>
+    <dimen name="material_button_corner_radius">2dp</dimen>
+    <dimen name="dialog_content_width">@dimen/baseline_grid_19x</dimen>
+
+    <dimen name="button_fab_edge_margin">@dimen/content_edge_margin_horizontal</dimen>
+
+    <dimen name="button_fab_normal">@dimen/baseline_grid_7x</dimen>
+    <dimen name="button_fab_mini">@dimen/baseline_grid_5x</dimen>
+
+    <style name="PrimaryButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:minHeight">@dimen/button_height_minimum_primary</item>
+    </style>
+
+    <style name="SubmitButton" parent="PrimaryButton">
+        <!--To remove rounded corners-->
+        <item name="android:background">@color/color_accent</item>
+        <item name="android:minHeight">@dimen/button_height_minimum_submit</item>
+    </style>
+
+    <style name="ColoredButton" parent="@style/Widget.AppCompat.Button.Colored" />
+
+    <style name="ColoredButtonBorderless" parent="@style/Widget.AppCompat.Button.Borderless.Colored" />
+
+
+</resources>

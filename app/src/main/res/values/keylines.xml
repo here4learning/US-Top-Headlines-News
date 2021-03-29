@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="baseline_grid_1x">8dp</dimen>
+    <dimen name="baseline_grid_2x">16dp</dimen>
+    <dimen name="baseline_grid_3x">24dp</dimen>
+    <dimen name="baseline_grid_4x">32dp</dimen>
+    <dimen name="baseline_grid_5x">40dp</dimen>
+    <dimen name="baseline_grid_6x">48dp</dimen>
+    <dimen name="baseline_grid_7x">56dp</dimen>
+    <dimen name="baseline_grid_8x">64dp</dimen>
+    <dimen name="baseline_grid_9x">72dp</dimen>
+    <dimen name="baseline_grid_10x">80dp</dimen>
+    <dimen name="baseline_grid_11x">88dp</dimen>
+    <dimen name="baseline_grid_12x">96dp</dimen>
+    <dimen name="baseline_grid_13x">104dp</dimen>
+    <!--<dimen name="baseline_grid_14x">112dp</dimen>-->
+    <dimen name="baseline_grid_15x">120dp</dimen>
+    <dimen name="baseline_grid_16x">128dp</dimen>
+    <dimen name="baseline_grid_17x">136dp</dimen>
+    <dimen name="baseline_grid_18x">144dp</dimen>
+    <dimen name="baseline_grid_19x">152dp</dimen>
+    <!--<dimen name="baseline_grid_20x">160dp</dimen>-->
+    <dimen name="baseline_grid_21x">168dp</dimen>
+    <!--<dimen name="baseline_grid_22x">176dp</dimen>-->
+    <!--<dimen name="baseline_grid_23x">184dp</dimen>-->
+    <!--<dimen name="baseline_grid_24x">192dp</dimen>-->
+    <!--<dimen name="baseline_grid_25x">200dp</dimen>-->
+    <!--<dimen name="baseline_grid_26x">208dp</dimen>-->
+    <!--<dimen name="baseline_grid_27x">216dp</dimen>-->
+    <!--<dimen name="baseline_grid_28x">224dp</dimen>-->
+    <!--<dimen name="baseline_grid_29x">232dp</dimen>-->
+    <!--<dimen name="baseline_grid_30x">240dp</dimen>-->
+    <!--<dimen name="baseline_grid_31x">248dp</dimen>-->
+    <!--<dimen name="baseline_grid_32x">256dp</dimen>-->
+    <!--<dimen name="baseline_grid_33x">264dp</dimen>-->
+    <!--<dimen name="baseline_grid_34x">272dp</dimen>-->
+    <!--<dimen name="baseline_grid_35x">280dp</dimen>-->
+    <!--<dimen name="baseline_grid_36x">288dp</dimen>-->
+    <!--<dimen name="baseline_grid_37x">296dp</dimen>-->
+    <!--<dimen name="baseline_grid_38x">304dp</dimen>-->
+    <!--<dimen name="baseline_grid_39x">312dp</dimen>-->
+    <dimen name="baseline_grid_40x">320dp</dimen>
+    <dimen name="baseline_grid_41x">328dp</dimen>
+    <dimen name="baseline_grid_42x">336dp</dimen>
+    <dimen name="baseline_grid_43x">344dp</dimen>
+    <dimen name="baseline_grid_53x">450dp</dimen>
+
+    <dimen name="baseline_grid_0.5x">4dp</dimen>
+    <dimen name="baseline_grid_1.5x">12dp</dimen>
+    <dimen name="baseline_grid_2.5x">20dp</dimen>
+    <dimen name="baseline_grid_3.5x">28dp</dimen>
+    <dimen name="baseline_grid_4.5x">36dp</dimen>
+    <dimen name="baseline_grid_5.5x">44dp</dimen>
+    <dimen name="baseline_grid_6.5x">52dp</dimen>
+    <dimen name="baseline_grid_7.5x">60dp</dimen>
+    <dimen name="baseline_grid_8.5x">68dp</dimen>
+    <dimen name="baseline_grid_9.5x">76dp</dimen>
+
+
+    <dimen name="content_top_margin_vertical">@dimen/baseline_grid_1x</dimen>
+    <dimen name="content_top_margin_vertical_group">@dimen/baseline_grid_0.5x</dimen>
+    <dimen name="content_edge_margin_horizontal">@dimen/baseline_grid_2x</dimen>
+    <dimen name="content_top_margin_vertical_3x">@dimen/baseline_grid_3.5x</dimen>
+    <dimen name="content_top_second_margin_vertical">@dimen/baseline_grid_4x</dimen>
+
+
+    <!--<dimen name="baseline_grid_toolbar_icon">4dp</dimen>-->
+    <!--<dimen name="baseline_grid_typography">4dp</dimen>-->
+
+    <dimen name="increment_1x">56dp</dimen>
+    <!--<dimen name="increment_2x">112dp</dimen>-->
+    <!--<dimen name="increment_3x">168dp</dimen>-->
+    <!--<dimen name="increment_4x">224dp</dimen>-->
+    <dimen name="increment_5x">280dp</dimen>
+    <!--<dimen name="increment_6x">336dp</dimen>-->
+    <!--<dimen name="increment_7x">392dp</dimen>-->
+    <!--<dimen name="increment_8x">448dp</dimen>-->
+    <!--<dimen name="increment_9x">504dp</dimen>-->
+    <!--<dimen name="increment_10x">560dp</dimen>-->
+
+    <!--<dimen name="increment_0.5x">28dp</dimen>-->
+    <dimen name="increment_1.5x">84dp</dimen>
+    <dimen name="increment_2.5x">140dp</dimen>
+    <!--<dimen name="increment_3.5x">168dp</dimen>-->
+    <dimen name="increment_4.5x">196dp</dimen>
+</resources>

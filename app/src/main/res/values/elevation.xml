@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="elevation_app_bar">4dp</dimen>
+    <dimen name="elevation_flat_button">0dp</dimen>
+    <dimen name="elevation_raised_button_resting">2dp</dimen>
+    <dimen name="elevation_raised_button_pressed">8dp</dimen>
+    <dimen name="elevation_fab_resting">6dp</dimen>
+    <dimen name="elevation_fab_pressed">12dp</dimen>
+    <dimen name="elevation_card_resting">2dp</dimen>
+    <dimen name="elevation_card_raised">8dp</dimen>
+    <dimen name="elevation_menu">8dp</dimen>
+    <dimen name="elevation_submenu_increment">1dp</dimen>
+    <dimen name="elevation_dialog">24dp</dimen>
+    <dimen name="elevation_side_drawer">16dp</dimen>
+    <dimen name="elevation_nav_drawer">@dimen/elevation_side_drawer</dimen>
+    <dimen name="elevation_right_drawer">@dimen/elevation_side_drawer</dimen>
+    <dimen name="elevation_bottom_sheet_modal">16dp</dimen>
+    <dimen name="elevation_refresh_indicator">3dp</dimen>
+    <dimen name="elevation_search_bar_resting">2dp</dimen>
+    <dimen name="elevation_search_bar_scrolled">2dp</dimen>
+    <dimen name="elevation_snackbar">6dp</dimen>
+    <dimen name="elevation_switch">1dp</dimen>
+    <dimen name="elevation_bottom_nav_bar">8dp</dimen>
+    <dimen name="elevation_chip">0dp</dimen>
+    <dimen name="elevation_contact_chip_closed">0dp</dimen>
+    <dimen name="elevation_contact_chip_open">8dp</dimen>
+    <dimen name="elevation_tooltip">0dp</dimen>
+</resources>

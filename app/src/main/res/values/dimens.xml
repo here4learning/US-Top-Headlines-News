@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="normal_padding">@dimen/baseline_grid_1x</dimen>
+    <dimen name="normal_dense_padding">@dimen/baseline_grid_2x</dimen>
+    <dimen name="dense_margin_vertical">@dimen/baseline_grid_5x</dimen>
+    <dimen name="medium_margin_vertical">@dimen/baseline_grid_4x</dimen>
+    <dimen name="normal_margin_vertical">@dimen/baseline_grid_3x</dimen>
+
+    <dimen name="icon_size_system">@dimen/baseline_grid_3x</dimen>
+
+    <dimen name="extra_high_padding">@dimen/baseline_grid_15x</dimen>
+    <dimen name="extra_vertical_padding">@dimen/baseline_grid_19x</dimen>
+</resources>

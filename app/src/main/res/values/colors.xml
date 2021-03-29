@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Background , component color-->
+    <color name="color_primary_dark">#004556</color>
+    <color name="color_primary">#00677C</color>
+    <color name="color_accent">#F88620</color>
+
+    <color name="color_divider">#77004556</color>
+
+    <color name="text_primary">#505050</color>
+    <color name="text_primary_dark">#505050</color>
+
+    <color name="color_title">#ffffff</color>
+
+    <color name="color_background_color">#fbfbfb</color>
+
+</resources>

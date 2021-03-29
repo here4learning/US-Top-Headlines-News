@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="circular_profile_pic_normal">@dimen/increment_1x</dimen>
+    <dimen name="circular_profile_pic_details">@dimen/increment_1.5x</dimen>
+    <dimen name="circular_profile_pic_big_details">@dimen/increment_2.5x</dimen>
+</resources>
