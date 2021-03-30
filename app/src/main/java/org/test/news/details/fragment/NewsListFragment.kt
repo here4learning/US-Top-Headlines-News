@@ -45,7 +45,7 @@ class NewsListFragment : BaseFragment(), OnItemClickListener<NewsItem> {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        mViewModel = NewsViewModelFactory(NewsRepositoryImpl(App.getMainApi(),App.getAdditionalApi())).create()
+        mViewModel = (activity as DashboardActivity).newsContainer.newsViewModelFactory.create()
         with(mViewModel) {
             handleObserverForLoading(view, this)
             handleObserverForNewsList(view,this)

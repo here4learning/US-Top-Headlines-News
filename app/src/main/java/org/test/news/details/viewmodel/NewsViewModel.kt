@@ -34,6 +34,10 @@ class NewsViewModel(private val repository: INewsRepositoryImpl) : BaseViewModel
         }
 
     fun fetchArticleList() {
+        if(articleList.value?.isNotEmpty() == true){
+            setArticlesInfo(articleList.value)
+            return
+        }
         showLoading.value = true
         viewModelScope.launch {
             runCatching {

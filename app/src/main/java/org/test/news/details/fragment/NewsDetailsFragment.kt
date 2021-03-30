@@ -54,10 +54,7 @@ class NewsDetailsFragment : BaseFragment() {
     private inner class MyWebViewClient : WebViewClient() {
 
         override fun shouldOverrideUrlLoading(view: WebView, url: String): Boolean {
-            if (url.startsWith("http")) {
-                view.loadUrl(url)
-                return true
-            }
+            view.loadUrl(url)
             return false
         }
 
@@ -68,6 +65,7 @@ class NewsDetailsFragment : BaseFragment() {
         override fun onPageFinished(view: WebView?, url: String?) {
             setLoadingUi(false)
         }
+
         @SuppressWarnings("deprecation")
         @Override
         override fun onReceivedError(view: WebView, errorCode: Int, description: String?, failingUrl: String?) {

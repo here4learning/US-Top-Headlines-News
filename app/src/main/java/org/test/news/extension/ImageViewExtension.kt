@@ -14,6 +14,7 @@ fun ImageView?.loadImage(url: String?,drawableRes : Int) {
                 .load(url)
                 .placeholder(drawableRes)
                 .error(drawableRes)
+                .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .transition(DrawableTransitionOptions.withCrossFade())
                 .into(this)
     }
