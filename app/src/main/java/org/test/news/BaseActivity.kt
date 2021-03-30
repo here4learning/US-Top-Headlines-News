@@ -6,9 +6,8 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.FragmentManager
-import pub.devrel.easypermissions.EasyPermissions
 
-abstract class BaseActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks {
+abstract class BaseActivity : AppCompatActivity() {
 
     var mainToolbar: Toolbar? = null
 
@@ -179,39 +178,6 @@ abstract class BaseActivity : AppCompatActivity(), EasyPermissions.PermissionCal
                 var intent = Intent()
                 data?.run { intent = this }
                 this.onActivityResult(requestCode, resultCode, intent)
-            }
-        }
-    }
-
-    fun hasPermissions(permissions: Array<String>): Boolean {
-        return EasyPermissions.hasPermissions(App.getInstance(), *permissions)
-    }
-
-    fun requestPermissions(permissions: Array<String>, message: String, requestCode: Int) {
-        EasyPermissions.requestPermissions(this, message, requestCode, *permissions)
-    }
-
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-
-        // EasyPermissions handles the request result.
-        EasyPermissions.onRequestPermissionsResult(requestCode, permissions, grantResults, this)
-    }
-
-    override fun onPermissionsGranted(requestCode: Int, permissions: List<String>) {
-        val count = supportFragmentManager.backStackEntryCount
-        if (count > 0) {
-            (supportFragmentManager.findFragmentByTag((count - 1).toString()) as BaseFragment).apply {
-                onPermissionsGranted(requestCode, permissions)
-            }
-        }
-    }
-
-    override fun onPermissionsDenied(requestCode: Int, permissions: List<String>) {
-        val count = supportFragmentManager.backStackEntryCount
-        if (count > 0) {
-            (supportFragmentManager.findFragmentByTag((count - 1).toString() + "") as BaseFragment).apply {
-                onPermissionsDenied(requestCode, permissions)
             }
         }
     }

@@ -2,7 +2,4 @@
         <string name="app_name">News App</string>
         <string name="lbl_alert_retry">Retry</string>
         <string name="msg_err_no_data">No Data</string>
-
-
-
 </resources>
