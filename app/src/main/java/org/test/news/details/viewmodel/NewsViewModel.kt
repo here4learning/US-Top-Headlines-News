@@ -41,6 +41,7 @@ class NewsViewModel(private val repository: INewsRepositoryImpl) : BaseViewModel
         showLoading.value = true
         viewModelScope.launch {
             runCatching {
+
                 repository.fetchArticleList()
             }.onSuccess {
                 processWithResult(articles = it)

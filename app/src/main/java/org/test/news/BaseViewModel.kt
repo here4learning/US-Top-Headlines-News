@@ -16,7 +16,6 @@ open class BaseViewModel : ViewModel() {
         get() {
             return showLoading
         }
-    protected var progressDialog: MutableLiveData<Boolean> = MutableLiveData()
 
     protected var errorMessage: MutableLiveData<String> = MutableLiveData()
     val getErrorMessage: LiveData<String>
