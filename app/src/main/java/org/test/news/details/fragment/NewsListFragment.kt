@@ -9,13 +9,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import org.test.news.*
 import org.test.news.details.adapter.NewsAdapter
 import org.test.news.details.entity.NewsItem
-import org.test.news.details.repository.NewsRepositoryImpl
 import org.test.news.details.viewmodel.NewsViewModel
-import org.test.news.di.NewsViewModelFactory
 import kotlinx.android.synthetic.main.fragment_top_news_list.view.*
-import org.test.news.extension.gone
-import org.test.news.extension.visibility
-import org.test.news.extension.visible
+import org.test.news.extension.*
 
 class NewsListFragment : BaseFragment(), OnItemClickListener<NewsItem> {
 
@@ -48,8 +44,8 @@ class NewsListFragment : BaseFragment(), OnItemClickListener<NewsItem> {
         mViewModel = (activity as DashboardActivity).newsContainer.newsViewModelFactory.create()
         with(mViewModel) {
             handleObserverForLoading(view, this)
-            handleObserverForNewsList(view,this)
-            handleObserverForUpdatedList(view,this)
+            handleObserverForNewsList(this)
+            handleObserverForUpdatedList(this)
             handleObserverForErrorView(view,this)
         }
         retryFetch()
@@ -69,13 +65,13 @@ class NewsListFragment : BaseFragment(), OnItemClickListener<NewsItem> {
         })
     }
 
-    private fun handleObserverForNewsList(view: View, viewModel: NewsViewModel) {
+    private fun handleObserverForNewsList(viewModel: NewsViewModel) {
         viewModel.getArticleList.observe(viewLifecycleOwner, Observer { list ->
             mNewsAdapter.setData(list)
         })
     }
 
-    private fun handleObserverForUpdatedList(view: View, viewModel: NewsViewModel) {
+    private fun handleObserverForUpdatedList(viewModel: NewsViewModel) {
         viewModel.hasUpdateDataForLikes.observe(viewLifecycleOwner, Observer { position ->
             mNewsAdapter.updateItem(position)
         })
@@ -86,7 +82,8 @@ class NewsListFragment : BaseFragment(), OnItemClickListener<NewsItem> {
 
     private fun handleObserverForErrorView(view : View,viewModel: NewsViewModel) {
         viewModel.getErrorMessage.observe(viewLifecycleOwner, Observer { message ->
-            handlingErrorView(view.te_empty_view,message)
+            //used infix, so used english sentence
+            message showAsToast forLongTime
         })
     }
 
